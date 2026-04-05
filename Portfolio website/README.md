@@ -25,7 +25,7 @@ It showcases a modern Portuguese restaurant website with multiple pages and inte
 
 ## 📸 Screenshots
 
-![Homepage](images/screenshot.png)
+![Homepage](images/screenshot.png)  
 
 ## ▶️ How to Run
 
