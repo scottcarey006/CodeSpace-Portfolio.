@@ -1,0 +1,278 @@
+.hero {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/image2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.hero .container {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-warning {
+    background-color: #c0392b;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+}
+
+.btn-warning:hover {
+    background-color: #a93226;
+}
+
+.menu-highlights {
+    background-color: #f8f5f0;
+}
+
+.menu-highlights h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.menu-highlights h3 {
+    margin-bottom: 1rem;
+    color: #8b2e1e;
+}
+
+.menu-highlights p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.menu-highlights img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.custom-navbar {
+    background-color: rgba(60, 30, 20, 0.95);
+    padding: 1rem 0;
+}
+
+.custom-navbar .navbar-brand {
+    color: #f8f5f0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: #d9b08c;
+}
+
+.custom-navbar .nav-link {
+    color: #f8f5f0;
+    margin-left: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+    color: #d9b08c;
+}
+
+.custom-navbar .navbar-toggler {
+    border-color: rgba(248, 245, 240, 0.4);
+}
+
+.custom-navbar .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.custom-navbar {
+    background-color: rgba(60, 30, 20, 0.95);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.custom-navbar {
+    background-color: rgba(60, 30, 20, 0.95);
+    padding: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-hero {
+  background: url("images/menu-hero.jpg") center center/cover no-repeat;
+  min-height: 35vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.menu-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.menu-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.menu-section {
+  background-color: #fffaf3;
+}
+
+.menu-section h2 {
+  color: #8b0000;
+  font-weight: bold;
+}
+
+.menu-item {
+  border-bottom: 1px solid #d9c7a3;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.menu-item h5 {
+  margin-bottom: 0.25rem;
+  color: #222;
+}
+
+.menu-item p {
+  margin-bottom: 0;
+  color: #555;
+}
+
+.menu-price {
+  font-weight: bold;
+  color: #8b0000;
+  white-space: nowrap;
+}
+
+.locations-hero {
+  background: url("images/locations-hero.jpg") center center/cover no-repeat;
+  min-height: 40vh;
+  position: relative;
+}
+
+.locations-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.locations-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.locations-section {
+  background-color: #fffaf3;
+}
+
+.location-card {
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.location-card .card-title {
+  color: #8b0000;
+  margin-bottom: 1rem;
+}
+
+.location-card p {
+  color: #444;
+  margin-bottom: 0.6rem;
+}
+
+.locations-hero {
+  min-height: 40vh;
+  background-color: #8b0000;
+  position: relative;
+}
+
+/* ===== CONTACT PAGE ===== */
+
+.contact-hero {
+  min-height: 40vh;
+  background: url("images/contact-hero.jpg") center center/cover no-repeat;
+  position: relative;
+}
+
+.contact-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.contact-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-section {
+  background-color: #fffaf3;
+}
+
+.contact-form-wrapper,
+.contact-info {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.contact-form-wrapper h2,
+.contact-info h3 {
+  color: #8b0000;
+}
+
+.custom-btn {
+  background-color: #8b0000;
+  border: none;
+  padding: 0.7rem 1.5rem;
+}
+
+.custom-btn:hover {
+  background-color: #6f0000;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+  background-color: #3c1e14; /* matches navbar */
+}
+
+.footer h5 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  color: #f8f5f0;
+}
+
+.footer-link {
+  color: #f8f5f0;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #d9b08c;
+}

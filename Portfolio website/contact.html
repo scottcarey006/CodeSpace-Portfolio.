@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Saudade Bistro</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Saudade Bistro</a>
+
+      <!-- Mobile toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="menu.html">Menu</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="locations.html">Locations</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+  </li>
+</ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Hero -->
+  <section class="contact-hero text-white text-center d-flex align-items-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Contact Us</h1>
+      <p class="lead">Send us a message or book your table online.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Form Column -->
+        <div class="col-lg-8">
+          <div class="contact-form-wrapper shadow-sm">
+            <h2 class="mb-4">Book a Table / Send a Message</h2>
+
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="location" class="form-label">Preferred Location</label>
+                  <select class="form-select" id="location">
+                    <option selected>Select a location</option>
+                    <option>Ayr</option>
+                    <option>Glasgow</option>
+                    <option>Edinburgh</option>
+                    <option>Fort William</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="date" class="form-label">Booking Date</label>
+                  <input type="date" class="form-control" id="date">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="guests" class="form-label">Number of Guests</label>
+                  <input type="number" class="form-control" id="guests" placeholder="e.g. 2">
+                </div>
+
+                <div class="col-12">
+                  <label for="message" class="form-label">Message / Special Requests</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Enter your message or booking request"></textarea>
+                </div>
+
+                <!-- Message appears here -->
+                <div class="col-12">
+                  <div id="formMessage"></div>
+                </div>
+
+                <!-- Submit button -->
+                <div class="col-12">
+                  <button type="submit" class="btn btn-danger custom-btn">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Info Column -->
+        <div class="col-lg-4">
+          <div class="contact-info shadow-sm">
+            <h3 class="mb-3">Get in Touch</h3>
+            <p><strong>Email:</strong> bookings@saudadebistro.com</p>
+            <p><strong>Phone:</strong> 0141 555 7890</p>
+            <p><strong>Head Office:</strong> 88 Merchant Street, Glasgow</p>
+            <p><strong>Opening Hours:</strong><br>Mon–Sun: 12:00–23:00</p>
+            <p>
+              For large group bookings, private events, or special dietary requests,
+              please contact us using the form.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="footer text-white py-4">
+  <div class="container">
+    <div class="row">
+
+      <!-- Column 1: Brand -->
+      <div class="col-md-4 mb-3">
+        <h5>Saudade Bistro</h5>
+        <p>Authentic Portuguese cuisine, bringing tradition and flavour to Scotland.</p>
+      </div>
+
+      <!-- Column 2: Links -->
+      <div class="col-md-4 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="footer-link">Home</a></li>
+          <li><a href="menu.html" class="footer-link">Menu</a></li>
+          <li><a href="locations.html" class="footer-link">Locations</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Contact -->
+      <div class="col-md-4 mb-3">
+        <h5>Contact</h5>
+        <p>Email: bookings@saudadebistro.com</p>
+        <p>Phone: 0141 555 7890</p>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="text-center mt-3">
+      <p class="mb-0">&copy; 2026 Saudade Bistro. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
